@@ -1,0 +1,4 @@
+.idea
+.venv
+agrosite/__pycache__/
+agroskill/__pycache__/

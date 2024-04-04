@@ -1,0 +1,111 @@
+.header-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo{
+    color: black;
+   text-decoration: none;
+}
+
+.header-link{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    background-color:   #8B9C6A;
+    padding: 5px 35px;
+    border-radius: 5px;
+    line-height: 16px;
+    color: white;
+}
+
+.main-block{
+        background-image: url('https://plus.unsplash.com/premium_photo-1678344170545-c3edef92a16e?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        color: white;
+        padding-bottom: 70px;
+
+}
+
+.main-block-content{
+    padding-top: 285px;
+    padding-bottom: 246px;
+}
+.main-block-text{
+    font-size: 30px;
+}
+.main-block-title {
+    font-size: 80px;
+    position: relative;
+}
+
+.main-block-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 23%;
+    border-bottom: 4px solid white;
+}
+
+
+.main-block-Paragraph{
+    font-size: 20px;
+}
+
+.main-block-link{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-block-inner-link{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 25px 67px;
+    border-radius: 100px;
+    width: 218px;
+}
+
+.main-card{
+background-color: #595C3B;
+
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #595C3B;
+}
+
+.footer-link{
+    color: black;
+    text-decoration: none;
+}
+
+    .image {
+        width: 70%; /* Регулируйте размер изображения по своему усмотрению */
+        height: auto; /* Сохраняйте пропорции изображения */
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px; /* Регулируйте размер текста по своему усмотрению */
+    }
